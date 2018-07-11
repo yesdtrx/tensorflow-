@@ -1,3 +1,4 @@
 #网络模型
 https://storage.googleapis.com/download.tensorflow.org/models/inception_dec_2015.zip
-
+#十图详解tensorflow数据读取机制
+http://www.cnblogs.com/denny402/p/7092851.html

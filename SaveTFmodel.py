@@ -36,6 +36,7 @@ sess=tf.InteractiveSession()
 sess.run(tf.global_variables_initializer())
 
 is_train=True
+#保存模型，先要创建一个Saver对象；保存最近的3个模型
 saver=tf.train.Saver(max_to_keep=3)
 
 #训练阶段
